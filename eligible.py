@@ -2,3 +2,9 @@
 #write a program to check if a person is eligible for discount the criteria is he must be student and age must be 21
 #without if else
 #output: Eligible: true
+role = input("Enter your role: ")
+age = int(input("Enter your age: "))
+
+eligible = role == "student" and age == 21
+
+print("Eligible:", eligible)
